@@ -9029,6 +9029,26 @@ fieldset:disabled .btn {
 }
 
 /* rtl:end:remove */
+
+/* rtl:end:remove */
+.text-orange {
+  --bs-text-opacity: 1;
+  color: rgba(198, 70, 29, var(--bs-text-opacity)) !important;
+}
+
+.text-green {
+  --bs-text-opacity: 1;
+  color: rgba(44, 77, 15, var(--bs-text-opacity)) !important;
+}
+
+
+.text-light-yellow {
+  --bs-text-opacity: 1;
+  color: rgba(250, 243, 232, var(--bs-text-opacity)) !important;
+}
+
+
+
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
