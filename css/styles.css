@@ -9033,7 +9033,17 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 .text-orange {
   --bs-text-opacity: 1;
-  color: rgba(198, 70, 29, var(--bs-text-opacity)) !important;
+  color: rgba(198, 70, 29, var(--bs-text-opacity));
+}
+
+.clickable-icon {
+  transition: all 0.3s ease;
+  font-size: 4rem;
+}
+
+.clickable-icon:hover {
+
+  transform: scale(1.2);
 }
 
 .text-green {
@@ -9047,6 +9057,11 @@ fieldset:disabled .btn {
   color: rgba(250, 243, 232, var(--bs-text-opacity)) !important;
 }
 
+.text-orange:hover,
+.text-green:hover,
+.text-light-yellow:hover {
+  color: rgba(204, 160, 0, var(--bs-text-opacity)) !important;
+}
 
 
 .text-primary {
