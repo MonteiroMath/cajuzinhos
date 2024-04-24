@@ -774,15 +774,24 @@
           </div>
 
           <div class="col-3 footer-image mt-5 mt-sm-0 mx-auto mx-sm-0">
-            <img
-              class="img-fluid"
-              src="assets/img/logos/LOGO CAJUZINHOS 2023.svg"
-              alt="..."
-            />
+            <picture>
+              <source
+                media="(max-width: 575px)"
+                srcset="assets/img/logos/logo_cajuzinhos2.svg"
+              />
+              <source
+                media="(min-width: 576px)"
+                srcset="assets/img/logos/logo_cajuzinhos.svg"
+              />
+              <img
+                class="img-fluid"
+                src="assets/img/logos/logo_cajuzinhos.svg"
+              />
+            </picture>
           </div>
         </div>
 
-        <div class="row align-items-center justify-content-end text-end">
+        <div class="row align-items-center justify-content-center justify-content-sm-end text-sm-end">
           <div class="col-lg-4 my-3 my-lg-0">
             <a
               class="btn btn-dark btn-social mx-2"
