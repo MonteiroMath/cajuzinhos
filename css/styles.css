@@ -9058,7 +9058,7 @@ fieldset:disabled .btn {
 
 .text-light-yellow {
   --bs-text-opacity: 1;
-  color: rgba(250, 243, 232, var(--bs-text-opacity)) !important;
+  color: rgba(245, 181, 42, var(--bs-text-opacity)) !important;
 }
 
 .text-orange:hover,
