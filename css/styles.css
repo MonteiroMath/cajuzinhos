@@ -13295,8 +13295,30 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
+@media (min-width: 992px) {
+  .footer {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer {
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+}
 
 .footer-image {
   width: 300px;
