@@ -12669,6 +12669,10 @@ p {
   padding: 6rem 0;
 }
 
+.page-section-extra-padding{
+  padding: 9rem 0;
+}
+
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -12714,7 +12718,15 @@ p {
   background-color: #212529;
 }
 
-#mainNav .navbar-toggler {
+#subPagesNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+
+}
+
+#mainNav .navbar-toggler,
+#subPagesNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12722,7 +12734,8 @@ p {
   font-weight: 700;
 }
 
-#mainNav .navbar-brand {
+#mainNav .navbar-brand,
+#subPagesNav .navbar-brand {
   color: white;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
@@ -12730,11 +12743,13 @@ p {
   text-transform: uppercase;
 }
 
-#mainNav .navbar-brand img {
+#mainNav .navbar-brand img,
+#subPagesNav .navbar-brand img {
   height: 1.5rem;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav .navbar-nav .nav-item .nav-link,
+#subPagesNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #fff;
@@ -12742,7 +12757,9 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#subPagesNav .navbar-nav .nav-item .nav-link.active,
+#subPagesNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
 }
 
@@ -12755,36 +12772,54 @@ p {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
 
-  #mainNav .navbar-brand {
+  #subPagesNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+
+  #mainNav .navbar-brand,
+  #subPagesNav .navbar-brand {
     font-size: 1.5em;
     transition: font-size 0.3s ease-in-out;
   }
 
-  #mainNav .navbar-brand img {
+
+  #mainNav .navbar-brand img,
+  #subPagesNav .navbar-brand img {
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
 
-  #mainNav.navbar-shrink {
+
+
+  #mainNav.navbar-shrink,
+  #subPagesNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
   }
 
-  #mainNav.navbar-shrink .navbar-brand {
+  #mainNav.navbar-shrink .navbar-brand,
+  #subPagesNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
 
   #mainNav.navbar-shrink .navbar-brand svg,
-  #mainNav.navbar-shrink .navbar-brand img {
+  #mainNav.navbar-shrink .navbar-brand img,
+  #subPagesNav.navbar-shrink .navbar-brand svg,
+  #subPagesNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
   }
 
-  #mainNav .navbar-nav .nav-item {
+  #mainNav .navbar-nav .nav-item,
+  #subPagesNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
 
-  #mainNav .navbar-nav .nav-item:last-child {
+  #mainNav .navbar-nav .nav-item:last-child,
+  #subPagesNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
 }
